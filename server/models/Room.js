@@ -6,6 +6,7 @@ const roomSchema = new mongoose.Schema(
         price: { type: Number, required: true, min: 0 },
         description: { type: String, required: true, trim: true},
         pax: { type: Number, required: true, min: 2 },
+        imgUrl: [{type: String, trim: true}],
     } 
 );
 

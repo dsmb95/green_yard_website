@@ -13,9 +13,11 @@ dotenv.config({ path: path.join(__dirname, '.env') });
 
 const app = express();
 const PORT = process.env.PORT || 5001;
+const assetsPath = path.join(__dirname, 'assets');
 
 app.use(cors());
 app.use(express.json());
+app.use('/images', express.static(assetsPath));
 
 const mongoConnected = await connectMongoDB();
 

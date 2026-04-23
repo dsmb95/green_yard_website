@@ -15,21 +15,19 @@ function App() {
         <img src={logo} alt='Green Yard Hotel logo.' style={{height: '8rem'}}/>
       </div>
       
-      <nav>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/rooms'>Book Now</NavLink>
-        <NavLink to='/about'>About</NavLink>
-        <NavLink to='/contact'>Contact Us</NavLink>
+      <nav className="nav-bar">
+        <NavLink to='/' className='navigation'>Home</NavLink>
+        <NavLink to='/our-rooms' className='navigation'>Book Now</NavLink>
+        <NavLink to='/about' className='navigation'>About</NavLink>
+        <NavLink to='/contact' className='navigation'>Contact Us</NavLink>
       </nav>
       
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/rooms" element={<Book/>}></Route>
+        <Route path="/our-rooms" element={<Book/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
-
-      <footer>Green Yard Hotel 2018</footer>
     </>
   )
 }

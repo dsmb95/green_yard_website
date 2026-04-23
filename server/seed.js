@@ -14,19 +14,36 @@ const rooms = [
         "room": "Vulu Twin Deluxe",
         "price": 1200,
         "description": "A standard room with two twin beds.",
-        "pax": 2
+        "pax": 2,
+        "imgUrl": [
+            "/images/room_photos/vulu_twin_deluxe_1.jpg",
+            "/images/room_photos/vulu_twin_deluxe_2.jpg",
+            "/images/room_photos/vulu_twin_deluxe_3.jpg",
+            "/images/room_photos/vulu_twin_deluxe_4.jpg",
+            "/images/room_photos/vulu_twin_deluxe_5.jpg"
+        ],
     },
     {
         "room": "Kawayan Deluxe",
         "price": 1800,
         "description": "A standard room with one queen bed.",
-        "pax": 2
+        "pax": 2,
+        "imgUrl": [
+            "/images/room_photos/kawayan_deluxe_1.jpg",
+            "/images/room_photos/kawayan_deluxe_2.jpg",
+            "/images/room_photos/kawayan_deluxe_3.jpg"
+        ],
     },
     {
         "room": "Bamboo Deluxe",
-        'price': 2500,
+        "price": 2500,
         "description": "A standard room with one king bed.",
-        "pax": 2
+        "pax": 2,
+        "imgUrl": [
+            "/images/room_photos/bamboo_deluxe_1.jpg",
+            "/images/room_photos/bamboo_deluxe_2.jpg",
+            "/images/room_photos/bamboo_deluxe_3.jpg"
+        ],
     }
 ];
 
